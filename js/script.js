@@ -148,7 +148,7 @@ function checkHealth() {
       $('#winner-modal img').attr('src', 'https://pbs.twimg.com/media/BnUHglcIQAA0m63.jpg');
     } else {
       $('#winner-modal p').text("Player 2 (Gary) wins!!!");
-      $('#winner-modal img').attr('src', 'https://www.60cards.net/media/user_blog/user_98f13708210194c475687be6106a3b84/content//gary-oak-winner-trophy-crown-1.jpg');
+      $('#winner-modal img').attr('src', './assets/gary-oak.jpg');
     }
     $('#winner-modal').fadeToggle('fast');
     $('#banner img').attr('src','https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png').css('width', '50%');
