@@ -70,7 +70,7 @@ function toggleModal() {
 function battleStart() {
   if($('.pokemon').length > 1) {
     $('.attack').click(attack);
-    $('#banner img').attr('src', 'https://community.usvsth3m.com/fight/fight.png').css('width','38%');
+    $('#banner img').attr('src', './assets/fight.png').css('width','38%');
     $('#counter-modal').fadeToggle('fast')
 } else {
   $('.attack').off('click',attack);
