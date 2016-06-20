@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Gotta catch 'em all!</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="https://s.mlcdn.co/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</head>
+<body class="container">
+  <div id="banner">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png" alt="">
+  </div>
+  <div class='row'>
+    <select name="select" id="player">
+      <option value="player1">Ash</option>
+      <option value="player2">Gary</option>
+    </select>
+    <input type="text" placeholder="I CHOOSE YOU!!" id="pokeDex">
+    <button id="pokeball">I Choose You!!!</button>
+    <button id="random">Random Pokemon</button>
+  </div>
+  <div class='row'>
+    <div class="six columns" id="player1">
+    </div>
+    <div class="six columns" id="player2">
+    </div>
+  </div>
+  <div id="error-modal">
+    <section>
+      <img src="http://image-cdn.neatoshop.com/styleimg/41449/none/iceblue/default/295431-19.jpg?v=b" alt="">
+      <p>You choo choo chose wrong...</p>
+      <p>That Pokemon doesn't exist.</p>
+    <button>Close</button>
+    </section>
+  </div>
+  <div id="winner-modal">
+    <section>
+      <img src="http://www.60cards.net/media/user_blog/user_98f13708210194c475687be6106a3b84/content//gary-oak-winner-trophy-crown-1.jpg" alt="">
+      <p></p>
+    <button>Close</button>
+    </section>
+  </div>
+  <div id="replay-modal">
+    <section>
+      <button>Play Again?</button>
+    </section>
+  </div>
+  <div id="counter-modal">
+    <section>
+      <p id="turn"></p>
+      <p id="counter"></p>
+    </section>
+  </div>
+</body>
+</html>

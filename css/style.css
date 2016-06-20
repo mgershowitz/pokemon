@@ -1,0 +1,136 @@
+button {
+  background-color:white;
+}
+body {
+  background-image: url(http://4.bp.blogspot.com/-nxvcbue9hzI/UbSJ2zNU_hI/AAAAAAAAAqQ/bQ1nsgS19rY/s1600/3769586+_cef5c012ceb7d4ed35a6abf60c29d231.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#banner img {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 50%;
+}
+
+div {
+  text-align: center;
+  background-color: rgba(255,255,255,0.5);
+}
+#player1 {
+ background-color: rgba(255,0,0,0.25);
+ color: white;
+ text-shadow: 1px 1px 0 #000;
+ font-size: 20px;
+}
+#player2 {
+ background-color: rgba(0,0,255,0.25);
+ color: white;
+ text-shadow: 1px 1px 0 #000;
+ font-size: 20px;
+}
+li{
+  display: inline;
+  margin: 0 20px;
+}
+#error-modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.75);
+}
+
+#error-modal section {
+  position: relative;
+  background-color: white;
+  width: 50%;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  top: 10%;
+  margin-top: -5%;
+}
+
+#error-modal img {
+  width: 70%;
+}
+#error-modal button {
+  display: block;
+  margin: 0 auto;
+}
+#winner-modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.75);
+}
+
+#winner-modal section {
+  position: relative;
+  background-color: white;
+  width: 50%;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  top: 10%;
+  margin-top: -5%;
+}
+
+#winner-modal img {
+  width: 70%;
+}
+#winner-modal button {
+  display: block;
+  margin: 0 auto;
+}
+
+#replay-modal {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0);
+}
+#replay-modal section {
+  position: relative;
+  background-color: white;
+  width: 20%;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%;
+  margin-top: -5%;
+}
+
+}
+#replay-modal button {
+  display: block;
+  margin: 0 auto;
+}
+#counter-modal {
+  display: none;
+  position: fixed;
+  width: 30%;
+  top: 5%;
+  left: 55%;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0);
+}
+#counter-modal section {
+  position: relative;
+  background-color: white;
+  width: 40%;
+  padding: 2em;
+  margin: 0 auto;
+  text-align: right;
+  top: 20%;
+  left: 30%;
+  margin-top: -5%;
+}
