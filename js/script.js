@@ -6,7 +6,7 @@ function getData(){
 //does AJAX stuff! But the AJAX URL should be different for every query, so make sure that the url is dynamic to your search!
   let iChooseYou = $('#pokeDex').val();
   $.ajax({
-    url: 'http://pokeapi.co/api/v2/pokemon/'+iChooseYou,
+    url: 'https://pokeapi.co/api/v2/pokemon/'+iChooseYou,
     method: 'GET',
     dataType: 'json',
     success: function(data) {
@@ -70,7 +70,7 @@ function toggleModal() {
 function battleStart() {
   if($('.pokemon').length > 1) {
     $('.attack').click(attack);
-    $('#banner img').attr('src', 'http://community.usvsth3m.com/fight/fight.png').css('width','38%');
+    $('#banner img').attr('src', 'https://community.usvsth3m.com/fight/fight.png').css('width','38%');
     $('#counter-modal').fadeToggle('fast')
 } else {
   $('.attack').off('click',attack);
@@ -148,7 +148,7 @@ function checkHealth() {
       $('#winner-modal img').attr('src', 'https://pbs.twimg.com/media/BnUHglcIQAA0m63.jpg');
     } else {
       $('#winner-modal p').text("Player 2 (Gary) wins!!!");
-      $('#winner-modal img').attr('src', 'http://www.60cards.net/media/user_blog/user_98f13708210194c475687be6106a3b84/content//gary-oak-winner-trophy-crown-1.jpg');
+      $('#winner-modal img').attr('src', 'https://www.60cards.net/media/user_blog/user_98f13708210194c475687be6106a3b84/content//gary-oak-winner-trophy-crown-1.jpg');
     }
     $('#winner-modal').fadeToggle('fast');
     $('#banner img').attr('src','https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png').css('width', '50%');
@@ -188,7 +188,7 @@ $('#random').on('click', function(e) {
   let iChooseYou = Math.floor(Math.random()*722);
   console.log('click');
   $.ajax({
-    url: 'http://pokeapi.co/api/v2/pokemon/'+iChooseYou,
+    url: 'https://pokeapi.co/api/v2/pokemon/'+iChooseYou,
     method: 'GET',
     dataType: 'json',
     success: function(data) {
